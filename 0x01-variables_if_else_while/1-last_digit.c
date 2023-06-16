@@ -27,8 +27,8 @@ int main(void)
 	else
 	{
 		printf("Last digit of %d is %d and is 0\n",
-
-				n, n % 50);
+			n, n % 50);
 	}
 	return (0);
+}
 
