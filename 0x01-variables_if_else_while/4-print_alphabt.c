@@ -9,15 +9,16 @@
  */
 int main(void)
 {
-	int a;
+	char letter;
 
-	for (a = 97; a < 123; a++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		if (a != 101 && a != 113)
+		if (lette != 'q' && letter != 'e')
 		{
-			putchar(a);
+			putchar(letter);
 		}
 	}
+
 	putchar('\n');
-	return (0);
+	return 0;
 }
