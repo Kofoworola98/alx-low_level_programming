@@ -8,20 +8,18 @@
  */
 int main(void)
 {
-	int n, num;
-	int count = 0;
-
-	for (n = 0; n <= 9; n++)
+	int num;
+	
+	for (num = 0; num <= 9; num++)
 	{
-		for (num = 0; num <= 9; num++)
+		putchar('0' + num);
+		if (num != 9)
 		{
-			putchar('0' + n);
-			putchar('0' + num);
-			putchar(count < 99 ? ',' : '\n');
+			putchar(',');
 			putchar(' ');
-			count++;
 		}
 	}
 
+	putchar('\n');
 	return (0);
 }
