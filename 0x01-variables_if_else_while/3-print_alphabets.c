@@ -3,14 +3,14 @@
 /**
  * main -  This prints the alphabets in lowercase and in uppercase.
  *
- * Return: Always 0 
+ * Return: Always 0 (Success) 
  */
 int main(void)
 {
-	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int a;
 
-	if((a = 0); (a < 52); a++);
+	for (a = 0;  a < 52; a++)
 	{
 		putchar(alp[a]);
 	}
