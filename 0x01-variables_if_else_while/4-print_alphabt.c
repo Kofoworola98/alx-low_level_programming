@@ -1,6 +1,4 @@
-#include <stdlib.h>
-#include <time.h>
-#include <string.h>
+#include <stdio.h>
 
 /**
  * main - This prints the alphabets in lowercase without q and e.
