@@ -2,11 +2,11 @@
 #include <unistd.h>
 
 /**
- * main - This function prints the alphabet in lower case.
+ * print_alphabet - This function prints the alphabet in lower case.
  * Return: Always 0 (Success)
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char letter;
 
