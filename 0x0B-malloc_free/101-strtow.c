@@ -59,7 +59,8 @@ char **strtow(char *str)
 				if (tmp == NULL)
 					return (NULL);
 				while (start < end)
-					*tmp = '\0';
+					*tmp++ = str[start++];
+				*tmp = '\0';
 				matrix[y] = tmp - z;
 				y++;
 				z = 0;
