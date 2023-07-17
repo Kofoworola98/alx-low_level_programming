@@ -5,4 +5,12 @@
  * struct dog - This is the dog's bacis information.
  * @name: Name of the dog
  * @age: Age of the dog
- * @owner
+ * @owner: Owner of the dog
+ */
+
+struct dog
+{
+	char *name;
+	float age;
+	char *owner;
+}
